@@ -1,0 +1,76 @@
+body 
+{
+    background-color: rgb(231, 225, 214);
+    margin: 20px;
+    padding: 20px;
+    font-family: Verdana, sans-serif;
+
+}
+
+h1
+{
+    color: #1050aa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    text-align: center;
+    border-bottom: 2px darkslateblue dotted;
+    padding-bottom: 5px;
+}
+
+p::first-letter
+{
+    font-size: 2em;
+    color: firebrick;
+}
+
+p a
+{
+    color: darkviolet;
+    text-decoration: underline;
+}
+
+.highlight-box
+{
+    border: 10px ridge red;
+    background-color: #ff0;
+    padding: 0.5rem;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.attraction-box
+{
+    border: 2px #483D8B dotted;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 15px;
+    margin-top: 20px;
+    color: green;
+}
+
+div h2
+{
+    text-align: center;
+}
+
+h2 strong 
+{
+    font-style: italic;
+}
+
+ol
+{
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.attraction
+{
+    font-weight: bold;
+    text-decoration: underline;
+    color: tomato;
+}
